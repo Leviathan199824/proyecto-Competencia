@@ -1,0 +1,76 @@
+.winky-rough-fuente {
+  font-family: "Winky Rough", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  font-family: "Winky Rough", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  border-radius: 5px; /* bordes redondeados*/
+  background-color: #0b4f6c;
+  padding: 13px;
+}
+h1 {
+  color: #cbb9a8;
+  text-align: center;
+}
+nav {
+  background-color: #cbb9a8;
+  height: 38px;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 30px;
+  text-decoration: none;
+  transition: ;
+}
+a:hover{
+    /* bienvenidod, animacion -> co
+     animacion como la paginad de digital harbor */
+    nav a tiene que tener hover  
+    /* mis tarjetas toien*/
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  padding: 20px;
+  width: 800px;
+}
+.item {
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  transition: transform 300ms, background-color 2s, box-shadow 300ms;
+  width: 100%;
+  max-width: 200px; /* lo mas que puede crecer ancho*/
+}
+b {
+  color: rgb(89, 113, 219);
+}
+img {
+  border-radius: 5px 5px 0 0;
+  aspect-ratio: 1/1;
+  object-fit: cover; /* la imagen va cubrir mi contenedor*/
+  width: 100%;
+}
+.item:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
